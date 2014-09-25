@@ -7,7 +7,13 @@ nav.navbar.navbar-default.navbar-fixed-top
         span.icon-bar
         span.icon-bar
       a.navbar-brand.page-scroll(href='#page-top')
-        | .concat()
+        img(
+          src='/images/logos/barcamp_header.png',
+          srcset='/images/logos/barcamp_header@2x.png 2x',
+          alt='Barcamp Salzburg – The next web',
+          width='200',
+          height='50'
+        )
 
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
       ul.nav.navbar-nav.navbar-right
@@ -15,18 +21,10 @@ nav.navbar.navbar-default.navbar-fixed-top
           li.hidden
             a(href='#page-top')
           li
-            a.page-scroll(href='#about') About
-          li
-            a.page-scroll(href='#speakers') Speak(!)ers
-          //- li
-          //-   a.page-scroll(href='#calendar') Calendar
-          //- li
-          //-   a.page-scroll(href='#tickets') Tickets
-          li
-            a.page-scroll(href='#coc') Code of Conduct
+            a.page-scroll(href='#about') Barcamp
           li
             a.page-scroll(href='#tickets') Tickets
           li
-            a.page-scroll(href='#sponsors') Sponsors
+            a.page-scroll(href='#speakers') Vorträge
           li
-            a.page-scroll(href='#team') Team
+            a.page-scroll(href='#sponsors') Sponsoren

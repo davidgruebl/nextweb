@@ -1,5 +1,6 @@
 @import "variables";
 @import "mixins";
+@import "tickets";
 
 // Global Components
 
@@ -102,6 +103,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @gray-darkest;
     border-color: transparent;
     .navbar-brand {
+        padding: 0;
         color: @brand-primary;
         .transition(opacity 150ms);
         .opacity(0);
@@ -215,18 +217,15 @@ header {
         }
     }
     .logo {
-        color: #c50202;
-        font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-        text-transform: lowercase;
-        display: inline-block;
-        margin: 10px 0;
+        margin: 20px 0;
+        -webkit-filter: drop-shadow(0 0 5px white);
     }
 }
 
 @media (min-width: 768px) {
     header {
         .intro-text {
-            padding-top: 300px;
+            padding-top: 340px;
             padding-bottom: 200px;
             .intro-lead-in {
                 .serif-font;
@@ -594,6 +593,20 @@ footer {
 @media (min-width: 768px) and(max-width: 992px) {
   .navbar-brand {
     display: none;
+  }
+}
+
+.fluid-width-video-wrapper {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  padding-top: 56.25%;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 

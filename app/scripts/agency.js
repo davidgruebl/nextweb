@@ -56,7 +56,7 @@ $(function() {
       center: new google.maps.LatLng(47.761026, 13.069313)
     });
 
-    var uni = 'University of Applied Sciences';
+    var uni = 'Fachhochschule Salzburg';
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(47.723379, 13.087777),
       map: map,
@@ -64,7 +64,7 @@ $(function() {
     });
 
     var infowindow = new google.maps.InfoWindow({
-      content: '<h2 class="section-heading">Our amazing venue</h2>' +
+      content: '<h2 class="section-heading">Der Veranstaltungsort</h2>' +
         '<h3 class="section-subheading text-muted">' +
           uni +
           ' <a href="https://www.google.com/maps/place/Fachhochschule+Salzburg/" title="Open in Google Maps">' +

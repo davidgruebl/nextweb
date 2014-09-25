@@ -294,6 +294,7 @@ module.exports = function (grunt) {
           /.in/,
           /.out/,
           /#map/,
+          /tito/,
           /modal/,
           /footer/,
           /\.team-member/,
