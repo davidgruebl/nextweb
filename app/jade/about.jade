@@ -1,6 +1,10 @@
 section#about
   .container
     .row
+      .col-lg-12.text-center
+        h2.section-heading Was ist neu im Web?
+        h3.section-subheading.text-muted Auch diesen Oktober treffen sich wieder Interessierte aus Wirtschaft, NGOs und der FH
+    .row
       .col-md-8.col-md-offset-2
         .fluid-width-video-wrapper
           iframe(
@@ -13,7 +17,15 @@ section#about
     br
     br
     .row
-      .col-md-8.col-md-offset-2.
-        Was ist neu im Web Development, im Web Design? Diesen Oktober treffen sich Fachleute aus Wirtschaft, NGOs und FH zu einem intensiven Austausch am Barcamp – und das nun bereits zum siebten Mal. Von Javascript bis Ruby on Rails, Perl und PHP; von Test Driven Development bis Usability, von Greenpeace bis zu Firefox OS reichen die Themen, die in den letzten Jahren von den TeilnehmerInnen eingebracht wurden.
-      .col-md-8.col-md-offset-2.
-        Auch diesmal wieder mit Projekt-Ausstellung am Freitag Abend: Projekte aus dem Studium und Open Source Projekte werden nicht nur gezeigt, man kann sie auch selbst ausprobieren und Fragen an die EntwicklerInnen stellen. Dazu gibst Fingerfood und Getränke, damit auch niemand vom Hunger vertrieben wird. Die Sponsor-Firma ist auch da und bietet Infos für PraktikantInnen / BewerberInnen.
+      .col-md-8.col-md-offset-2
+        include:markdown about.md
+
+    .row
+      .col-md-8.col-md-offset-2
+        .lanyrd-target-schedule
+          a(
+            href='http://lanyrd.com/2014/barcamp-salzburg-october/schedule/',
+            class='lanyrd-schedule',
+            data-lanyrd-nolink,
+            data-lanyrd-nostyles,
+          )
