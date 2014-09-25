@@ -1,4 +1,4 @@
-Ein [Barcamp ist eine Ad-hoc-Nicht-Konferenz](http://www.barcamp.at/Was_ist_ein_BarCamp). Jede*r, der etwas beizutragen hat oder etwas lernen will, ist willkommen und herzlich eingeladen mitzumachen.
+Ein [Barcamp ist eine Ad-hoc-Nicht-Konferenz](http://www.barcamp.at/Was_ist_ein_BarCamp). Jede*r, die/der etwas beizutragen hat oder etwas lernen will, ist willkommen und herzlich eingeladen mitzumachen.
 
 Bereits zum siebten Mal gibt es diesen intesiven Austausch in Salzburg. Von Javascript bis Ruby on Rails, Perl und PHP; von Test Driven Development bis Usability, von Greenpeace bis zu Firefox OS reichen die Themen, die in den letzten Jahren von den Teilnehmer*innen eingebracht wurden.
 
